@@ -1,0 +1,23 @@
+
+        .copo{
+            margin:0 ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .topo{
+           background-color: black;
+           padding: 10px 0;
+        }
+        .menu{
+            display: flex;
+            justify-content: center;
+          }
+          .menu a{
+            color: antiquewhite;
+            padding: 14px 20px;
+            transition: background 0.3s;
+          }
+          .menu a:hover{
+            background-color: blueviolet;
+          }
+          
+    
