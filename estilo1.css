@@ -36,7 +36,7 @@ header nav ul li a:hover{
     color: #f4a261;
 
 }
-/* estilização do inicio */
+/* estilização do Inicio */
 .ini-section{
     text-align: center;
     color: #292121;
@@ -64,17 +64,18 @@ header nav ul li a:hover{
     padding: 15px 30px;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.5s;
+    transition: background-color 1.5s;
 
 }
 
 .cta-button:hover{
     background-color: #e68a3f;
 }
-/*aqui começa a nossa sessão de sobre */
+/*aqui começa a nossa sessão de Sobre */
 .sobre-section{
     background-color:rgb(139, 143, 146);
     padding: 50px 20px;
+    text-align: center;
 
 }
 .sobre-section h2{
@@ -87,6 +88,88 @@ header nav ul li a:hover{
     margin-bottom: 20px;
     max-width: 800px;
     margin: 0 auto 20px auto;
-    line-height: 1.5;
+    line-height: 0.5;
 }
+/*sessão de Serviços*/
 
+#Serviços{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: #f4a261;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 8px #333;
+    cursor: pointer;
+    transition: transform 0.05s;
+    margin-top: 20px;
+}
+.card:hover{
+    transform: scaleX(1.05);
+    box-shadow: 0 8px 16px #333;
+    background-color: #b95808;
+}
+.card h3{
+font-size: 23px;
+margin: 10px;
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.preço{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+#Serviços h2{
+    font-size: 30px;
+}
+/*sessão de contato*/
+#contato{
+    background-color: #292121;
+    color: azure;
+    padding: 50px 20px;
+    text-align: center;
+
+}
+#contato h2{
+    font: size 30px; ;
+    margin-bottom: 20px;
+}
+.contato-form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.contato-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.contato-form input,.contato-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.contato-form button{
+    background-color: #f4a261;
+    color: aquamarine;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
